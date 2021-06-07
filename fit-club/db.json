@@ -19,10 +19,10 @@
       "workoutDescription": "Start in a high plank with your palms flat, hands shoulder-width apart, shoulders stacked directly above your wrists, legs extended behind you, and your core and glutes engaged. Bend your elbows and lower your chest to the floor. Push through the palms of your hands to straighten your arms.",
       "equpipmentNeeded": "None",
       "image": "https://loseyoself.files.wordpress.com/2015/01/push-up.png",
-      "exerciseIsDone": false,
-      "sets": 0,
-      "reps": 0,
-      "weight": 0
+      "exerciseIsDone": true,
+      "sets": "3",
+      "reps": "10",
+      "weight": "30"
     },
     {
       "id": 3,
@@ -140,9 +140,9 @@
       "equpipmentNeeded": "Dumbbells",
       "image": "http://2.bp.blogspot.com/-DcBW53ssWz8/Un3VqpHGoUI/AAAAAAAAAaw/f227Fppy7sY/s1600/Dumbbell+One-Arm+Shoulder+Press.jpg",
       "exerciseIsDone": false,
-      "sets": 0,
-      "reps": 0,
-      "weight": 0
+      "sets": "3",
+      "reps": "8",
+      "weight": "50"
     },
     {
       "id": 13,

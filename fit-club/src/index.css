@@ -216,13 +216,13 @@ code {
 
 .exercise-name {
   font-size: 1.8em;
-  color: #fff;
+  color: rgb(236, 236, 234);
   z-index: 1;
 }
 
 h4 {
   font-size: 1em;
-  color: rgb(255, 255, 255);
+  color: rgb(236, 236, 234);
   font-weight: bold;
   background-color: rgba(255, 186, 66, 0.356);
   border-radius: 7px;
@@ -235,12 +235,28 @@ h4 {
   display: inline-block;
   padding: 8px 20px;
   margin-top: 15px;
-  background: #fff;
-  color: #000;
+  background: rgba(219, 218, 214, 0.527);
+  color: rgb(53, 92, 175);
   height: 50px;
   width: 100px;
   border-radius: 20px;
   font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card-front .flip-button {
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 15px;
+  background: rgba(219, 218, 214, 0.527);
+  color: rgb(53, 92, 175);
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: medium;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
@@ -251,7 +267,7 @@ h4 {
   top: 0;
   display: inline-block;
   margin: 3px;
-  padding: 4px 10px;
+  padding: 1.25px;
   margin-bottom: 15px;
   background: rgba(219, 218, 214, 0.527);
   color: rgb(53, 92, 175);
@@ -259,7 +275,23 @@ h4 {
   width: 35px;
   border-radius: 20px;
   font-weight: bolder;
-  font-size: medium;
+  font-size: larger;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card-back .submitButton {
+  left: 0;
+  top: 0;
+  display: inline-block;
+  margin: 10px;
+  padding: 3px;
+  margin-bottom: 15px;
+  background: rgba(219, 218, 214, 0.527);
+  color: rgb(53, 92, 175);
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: larger;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
@@ -380,7 +412,7 @@ p {
   margin-top: 15px;
   position: relative;
   font-size: large;
-  color: #fff;
+  color: rgb(236, 236, 234);
   z-index: 1;
 }
 
@@ -388,7 +420,7 @@ p {
   padding-bottom: 4.5rem;
   padding-top: .5rem;
   font-size: 1em;
-  color: #fff;
+  color: rgb(236, 236, 234);
   font-weight: 300;
 }
 
@@ -399,17 +431,17 @@ p {
   display: inline-block;
   padding: 8px 20px;
   margin-top: 15px;
-  background: #fff;
-  color: #000;
+  background: rgba(219, 218, 214, 0.527);
+  color: rgb(53, 92, 175);
   height: 50px;
   width: 100px;
   border-radius: 20px;
-  font-weight: 500;
+  font-weight: 600;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .your-exercises .your-workouts-header {
-  color: #fff;
+  color: rgb(236, 236, 234);
   position: absolute;
   top: 0;
   padding-top: 10px;
@@ -492,7 +524,7 @@ p {
   margin-top: 15px;
   position: relative;
   font-size: large;
-  color: #fff;
+  color: rgb(236, 236, 234);
   text-shadow:
       0 0 1.25px #a4b6d1,
       0 0 2.5px #8a93be,
@@ -510,12 +542,12 @@ p {
   display: inline-block;
   padding: 8px 20px;
   margin-top: 15px;
-  background: #fff;
-  color: #000;
+  background: rgba(219, 218, 214, 0.527);
+  color: rgb(175, 67, 53);
   height: 50px;
   width: 100px;
   border-radius: 20px;
-  font-weight: 500;
+  font-weight: 600;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 

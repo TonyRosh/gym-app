@@ -79,8 +79,6 @@ export default class App extends Component {
   }
 
   submitWorkoutInfo = (clickedWorkout, repsSetsWeight) => {
-    console.log('reps Sets Weight', clickedWorkout)
-    console.log('reps Sets Weightsssss', this.state.yourWorkouts)
     if (!this.state.yourWorkouts.includes(clickedWorkout)) {
     const updatedWorkout = { ...clickedWorkout, ...repsSetsWeight }
     fetch('http://localhost:3000/exercises/' + clickedWorkout.id, {
@@ -94,8 +92,6 @@ export default class App extends Component {
       this.setState({
         yourWorkouts: [...this.state.yourWorkouts, updatedWorkout]
       })
-
-      console.log('UPGRAYDD', updatedWorkout)
 
     }
 

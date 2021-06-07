@@ -13,16 +13,16 @@ class ExerciseCard extends React.Component {
         if (this.props.submitWorkoutInfo) {
             this.props.submitWorkoutInfo(this.props.exercise, repsSetsWeight)
         }
+        this.setState({
+            isFlipped: !this.state.isFlipped
+        })
     }
 
     handleWorkoutInfo = (e) => {
-        e.preventDefault()
-        e.stopPropagation()
         this.props.submitWorkoutInfo(this.props.exercise)
     }
 
     readMore = (e) => {
-        e.stopPropagation()
         this.setState({
             isFlipped: !this.state.isFlipped
         })
